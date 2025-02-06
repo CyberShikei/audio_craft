@@ -1,0 +1,10 @@
+[package]
+name = "audio_craft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ash = "0.37"          # Vulkan bindings
+winit = "0.29"        # Windowing system
+rosc = "0.10"         # OSC networking
+
