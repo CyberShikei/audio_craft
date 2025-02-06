@@ -4,12 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-ash = "0.37"          # Vulkan bindings
-ash-window = "0.10"
-
 rosc = "0.6"         # OSC networking
 
-winit = "0.27"
+# winit = "0.27"
 
 log = "0.4"        # Logging facade (optional)
 env_logger = "0.9" # Logger initialization (optional)
